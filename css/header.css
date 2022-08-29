@@ -1,0 +1,122 @@
+
+.header{
+    position: fixed;
+    padding: 0;
+    margin: 0;
+    z-index: 100;
+    padding-left: 90px;
+    justify-content: space-between;
+}
+.logo__botones{
+    /* alineacion vertical */
+    /* margin-top: 2rem;
+    margin-bottom: 2rem; */
+    align-items: center;
+    justify-content: space-between;
+    display: flex;
+    background: white;
+    width: 1150px;
+    height: 90px;
+
+
+}
+.logo{
+    /* width: 800px; */
+    height: 80px;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+.logo:hover{
+    /* background-color: rgb(235, 240, 243); */
+    /* filter: blur(1px); */
+    transform:scale(1.05,1.05);
+    /* transform: skew(-1deg,-1deg); */
+    transition: 2s;
+
+}
+
+.navegacion{
+    margin-right: 3rem;
+    justify-content: center;
+
+}
+.menu_padre{
+    display: flex;
+    justify-content: space-between;
+}
+.menu_padre #nosotros, #contactos, #descargas{
+    margin-left: 25px;
+    display: flex;
+    width: 7.5rem;
+    height: 3rem;
+    justify-content: center;
+    font-size: 2rem;
+
+    align-items: center;
+    margin-right: .9rem;
+    border-radius: 5px;
+    border: 4px solid rgb(17, 69, 126);;
+    background-color: white;
+    color: red;
+
+    font-weight: 400;
+    font-family: 'Gurajada', serif;
+
+}
+.menu_padre #descargas:hover{
+    border: 4px solid red;
+    background-color: rgb(17, 69, 126);
+    color: white;
+    transition: 1s;
+}
+.menu_padre #nosotros:hover{
+    border: 4px solid red;
+    background-color: rgb(17, 69, 126);
+    color: white;
+    transition: 1s;
+}
+.menu_padre #contactos:hover{
+    border: 4px solid red;
+    background-color: rgb(17, 69, 126);
+    color: white;
+    transition: 1s;
+}
+/* responsive */
+@media(max-width:768px){
+    .header{
+        display: flex;
+        width: 100%;
+
+    }
+    /* .logo{
+        margin-top: 50px;
+        justify-content: center;
+    } */
+    .logo__botones{
+        display: flex;
+        margin-top: 0;
+        margin: 0;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .navegacion{
+        display: flex;
+        flex-direction: column;
+        margin-right: 0rem;
+    }
+    .menu_padre #nosotros, #contactos, #descargas{
+        display: flex;
+        width: 6rem;
+        height: 2rem;
+        justify-content: center;
+        font-size: 1.5rem;
+        border: 4px solid rgb(212, 41, 33);
+        align-items: center;
+        margin-right: .9rem;
+        border-radius: 5px;
+        background-color: rgb(17, 69, 126);
+        color: white;
+        font-weight: 400;
+        font-family: 'Gurajada', serif;
+    }
+}

@@ -1,0 +1,31 @@
+.webmaster:hover{
+    display: flex;
+    background-color: rgb(180, 166, 192);
+    width: 250px;
+    height: 20px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid rgb(244, 23, 11);
+margin-left: 500px;
+font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+color: rgb(10, 10, 59);
+font-weight: 700;
+/* font-style:oblique; */
+}
+.webmaster{
+    display: flex;
+    background-color: rgb(23, 3, 41);
+    width: 200px;
+    height: 20px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid rgb(117, 9, 4);
+margin-left: 450px;
+font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+color: rgb(255, 255, 255);
+font-weight: 700;
+font-style:oblique;
+transition: 1s;
+}
